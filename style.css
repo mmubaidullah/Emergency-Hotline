@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans Bengali", "Noto Sans", sans-serif; 
+
+}
+
+  /* ================= NAVBAR ================= */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0; 
+    padding: 24px 60px;
+    background: #f8faf9; 
+    color: #e2e8f0; 
+    box-shadow: 0 10px 16px rgba(2, 6, 23, .08); 
+    width: 100%;
+    min-height: 10px;
+    align-items: center;
+}
+.left_nav {
+    display: flex;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.Emergency {
+    font-size: 20px;
+    color: #006747;
+    width: 135px;
+    height: 45px;
+}
+.right_nav{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    font-weight: 700;
+}
+.pill { 
+    display: inline-flex; 
+    height: 52px;
+    width: 100px;
+    align-items: center;
+    gap: 6px; 
+    color: #000;
+    padding-left: 20px; 
+    border-radius: 999px; 
+    background: rgb(180, 228, 197);
+    border: 1px solid rgba(255,255,255,.25); 
+    font-size: 18px; 
+}
+.sobuj{
+    background: rgba(0, 166, 62, 1);
+    height: 52px;
+    width: 110px;
+    color: #ffffff;
+}
+.pill img{
+    width: 30px;
+    height: 30px;
+}
+
+  /* ================= HERO ================= */
+.hero { 
+    background: radial-gradient(1200px 500px at 50% -60%, #34d39933, transparent),
+    radial-gradient(800px 400px at 0% 40%, #22c55e22, transparent),
+    radial-gradient(800px 400px at 100% 40%, #0ea5e933, transparent),
+    linear-gradient(180deg, #0b3a2d 0%, #0b3a2d 30%, #0b3a2d 70%, #0b3a2d 100%);
+    color: #ecfeff; 
+}
+.hero-inner {
+    max-width: 1280px; 
+    margin: 0 auto; 
+    padding: 32px 16px 24px; 
+    text-align: center; 
+}
+.crest { 
+    height: 240; 
+    max-width: 1920px; 
+    /* margin: 0 auto 8px;  */
+    /* border-radius: 50%;  */
+    /* display: grid;  */
+    place-items: center; 
+    font-size: 28px; 
+}
+.crest img{
+    width: 80px;
+    height: 80px;
+}
+.title { 
+    font-size: clamp(22px, 4vw, 34px); 
+    font-weight: 800; 
+    margin: 6px 0; 
+    letter-spacing: .2px; 
+}
+
+/* Main layout */
+.wrap { 
+    max-width: 1280px; 
+    margin: 0 auto; 
+    padding: 18px 16px 40px; 
+}
+.grid { 
+    display: grid; 
+    grid-template-columns: 1fr; gap: 18px; 
+}
+.cards { 
+    display: grid; 
+    grid-template-columns: repeat(1, minmax(0,1fr)); 
+    gap: 16px; 
+}
+.history { 
+    background: #ffffff; 
+    border: 1px solid #e5e7eb;  
+    border-radius: var(--radius); 
+    box-shadow: var(--shadow); 
+}

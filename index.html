@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scrift.js"></script>
+    <title>Emergency Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="left_nav">
+      <div class="logo">
+        <img src="assets/logo.png" alt="">
+      </div>
+      <div class="Emergency">
+        <div>Emergency</div>
+        <div>Service</div>
+      </div>
+    </div>
+    <div class="right_nav">
+        <div class="pill" title="Total Likes"><span id="likeCount">0</span><span><img src="assets/heart.png" alt="Like"></span></div>
+        <div class="pill" title="Coin balance"><span id="coinCount">100</span><span><img src="assets/coin.png" alt="Coins"></span> </div>
+        <div class="pill sobuj" title="Copy count"><span id="copyCount">0</span><span></span><span>Copy</span></div>
+    </div>
+  </header>
+  
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="crest" aria-hidden="true"><img src="assets/logo.png" alt=""></div>
+      <div class="title">জরুরি সেবা ডিরেক্টরি</div>
+      <div class="slogan">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</div>
+    </div>
+  </section>
+
+  <!-- ================= MAIN ================= -->
+  <main class="wrap">
+    <div class="grid">
+      <!-- Cards grid -->
+      <div id="cards" class="cards" aria-live="polite"></div>
+
+      <!-- History Section -->
+      <aside class="history" aria-label="Call History">
+        <div class="history-head">
+          <div class="history-title"><span aria-hidden="true">🕘</span> <span>Call History</span></div>
+          <button id="clearHistory" class="clear" type="button">Clear</button>
+        </div>
+        <div id="historyList" class="history-list" role="list"></div>
+      </aside>
+    </div>
+    <div class="footnote"></div>
+  </main>
+</body>
+</html>
