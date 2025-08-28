@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="scrift.js"></script>
+    <script defer src="script.js"></script>
     <title>Emergency Service</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
     <div class="hero-inner">
       <div class="crest" aria-hidden="true"><img src="assets/logo.png" alt=""></div>
       <div class="title">জরুরি সেবা ডিরেক্টরি</div>
-      <div class="slogan">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</div>
+      <div>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</div>
     </div>
   </section>
 
@@ -42,9 +42,9 @@
   <main class="wrap">
     <div class="grid">
       <!-- Cards grid -->
-      <div id="cards" class="cards" aria-live="polite"></div>
+      <div id="cards" class="cards" ></div>
 
-      <!-- History Section -->
+      <!-- History panel -->
       <aside class="history" aria-label="Call History">
         <div class="history-head">
           <div class="history-title"><span aria-hidden="true">🕘</span> <span>Call History</span></div>
@@ -53,7 +53,6 @@
         <div id="historyList" class="history-list" role="list"></div>
       </aside>
     </div>
-    <div class="footnote"></div>
   </main>
 </body>
 </html>
