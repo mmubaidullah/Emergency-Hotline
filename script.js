@@ -1,11 +1,11 @@
     // ======= App State =======
     const state = {
       likes: 0,
-      coins: 100,
+      coins: 1000,
       copies: 0,
       history: []
     };
-    // ======= Service Data (sample) =======
+    // ======= Service Data =======
     
     const services = [
       { id: 's1', icon: '🚒', nameBn: 'ফায়ার সার্ভিস', nameEn: 'Fire Service', number: '999', category: 'Emergency' },
