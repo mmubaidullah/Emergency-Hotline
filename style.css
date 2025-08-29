@@ -97,7 +97,7 @@
 
 /* Main layout */
 .wrap { 
-    max-width: 1300px; 
+    max-width: 1700px; 
     margin: 0 auto; 
     padding: 18px 16px 18px; 
 }
@@ -175,11 +175,23 @@
     transform: translateY(-2px); 
     box-shadow: 0 16px 32px rgba(2,6,23,.12); 
 }
-.card-head { 
-    display: grid; 
-    grid-template-columns: auto 1fr auto; 
-    gap: 10px; align-items: center; 
+
+.card-head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-row {
+  text-align: left;
+}
+
 .svc-ico { 
     height: 36px; 
     width: 36px; display: grid; 
@@ -210,18 +222,14 @@
     margin-top: -2px; 
 }
 
-.number-row { 
-    display: flex; 
-    align-items: center; 
-    gap: 8px; 
-}
 .hotline { 
     font-size: 24px; 
     font-weight: 800; 
     letter-spacing: .6px; 
 }
 .badge { 
-    margin-left: auto; 
+    margin-left: 0; 
+    width: fit-content;
     font-size: 11px; 
     padding: 4px 8px; 
     border-radius: 999px; 
@@ -299,6 +307,7 @@
 }
 
 .clear { 
+    color: #ffffff;
     background: #22c55e;
     border: 1px solid #e5e7eb;  
     border-radius: 10px; 
@@ -313,7 +322,7 @@
 
 /* ফুটার সেকশন */
 footer {
-    background-color: #f8f8f8;
+    background-color: hsl(115, 36%, 86%);
     text-align: center;
 }
 
