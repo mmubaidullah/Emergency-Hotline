@@ -1,7 +1,7 @@
     // ======= App State =======
     const state = {
       likes: 0,
-      coins: 1000,
+      coins: 100,
       copies: 0,
       history: []
     };
